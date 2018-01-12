@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "The Oaks Mobrise",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -31,7 +31,7 @@
         {
           "_params": {
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": true,
             "showArrow": true,
             "contentAlign": "center",
@@ -48,8 +48,8 @@
             "overlayColor": "#edafae",
             "overlayOpacity": "0"
           },
-          "title": "<b><br></b><br><b>The Oaks</b><b><br></b><br>",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "title": "<b><br></b><b><br></b><br><b>The Oaks</b><br>",
+          "text": "&nbsp;&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">&nbsp;About<br></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Contact<br></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">&nbsp; Directions&nbsp;<br></a>  ",
           "alias": "purity/components",
           "_tags": [
@@ -67,6 +67,9 @@
               "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
               "font-size": "100px",
               "color": "#000000"
+            },
+            "P": {
+              "color": "#dddddd"
             }
           }
         },
@@ -86,7 +89,7 @@
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
-                "title": "Slide 1",
+                "title": "<br><br>Welcome to The Oaks Counseling Center. <br>The Oaks Counseling Center has a mission<br> to walk alongside you in challenging moments <br>of life in a compassionate, understanding,and <br>non-judgmental way. Jessica Owen is <br>licensed by the Tennessee Board of <br>Marital and Family Therapists and is<br> trained to handle family, couple, and <br>individual issues that may arise in<br> various seasons and transitions of life. \n<div>The Oaks Counseling Center offers</div><div> clinical counseling services. While the</div><div> the foundational framework of the</div><div> counseling center is faith based,</div><div>the belief system of the client is always</div><div>paramount and considered. Therefore,</div><div> the autonomy of the client is of great</div><div> importance and spiritual components</div><div>&nbsp; &nbsp;will be integrated into session to the<span style=\"color: inherit;\">extent the client</span></div><div><span style=\"color: inherit;\">desires.</span></div><div><br></div><br><div>Please feel free to browse and explore our website.</div>",
                 "contentAlign": "right",
                 "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">For Mac</a>"
@@ -121,7 +124,13 @@
             "Theme"
           ],
           "_name": "slider",
-          "_anchor": "slider-5"
+          "_anchor": "slider-5",
+          "_styles": {
+            "H2": {
+              "font-size": "22px",
+              "text-align": "right"
+            }
+          }
         },
         {
           "_params": {
